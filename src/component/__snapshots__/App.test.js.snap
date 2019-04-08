@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App tests Snapshot matches 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1>
+          Show text app
+        </h1>,
+        <button
+          onClick={[Function]}
+        >
+          Hide
+        </button>,
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis assumenda similique sit qui suscipit. Recusandae ipsa quae impedit molestiae pariatur nam autem saepe voluptate fugiat? Tempora cumque fuga ab illo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis assumenda similique sit qui suscipit. Recusandae ipsa quae impedit molestiae pariatur nam autem saepe voluptate fugiat? Tempora cumque fuga ab illo?
+        </p>,
+      ],
+      "className": "app",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Show text app",
+        },
+        "ref": null,
+        "rendered": "Show text app",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Hide",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Hide",
+        "type": "button",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis assumenda similique sit qui suscipit. Recusandae ipsa quae impedit molestiae pariatur nam autem saepe voluptate fugiat? Tempora cumque fuga ab illo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis assumenda similique sit qui suscipit. Recusandae ipsa quae impedit molestiae pariatur nam autem saepe voluptate fugiat? Tempora cumque fuga ab illo?",
+        },
+        "ref": null,
+        "rendered": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis assumenda similique sit qui suscipit. Recusandae ipsa quae impedit molestiae pariatur nam autem saepe voluptate fugiat? Tempora cumque fuga ab illo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis assumenda similique sit qui suscipit. Recusandae ipsa quae impedit molestiae pariatur nam autem saepe voluptate fugiat? Tempora cumque fuga ab illo?",
+        "type": "p",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            Show text app
+          </h1>,
+          <button
+            onClick={[Function]}
+          >
+            Hide
+          </button>,
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis assumenda similique sit qui suscipit. Recusandae ipsa quae impedit molestiae pariatur nam autem saepe voluptate fugiat? Tempora cumque fuga ab illo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis assumenda similique sit qui suscipit. Recusandae ipsa quae impedit molestiae pariatur nam autem saepe voluptate fugiat? Tempora cumque fuga ab illo?
+          </p>,
+        ],
+        "className": "app",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Show text app",
+          },
+          "ref": null,
+          "rendered": "Show text app",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Hide",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Hide",
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis assumenda similique sit qui suscipit. Recusandae ipsa quae impedit molestiae pariatur nam autem saepe voluptate fugiat? Tempora cumque fuga ab illo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis assumenda similique sit qui suscipit. Recusandae ipsa quae impedit molestiae pariatur nam autem saepe voluptate fugiat? Tempora cumque fuga ab illo?",
+          },
+          "ref": null,
+          "rendered": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis assumenda similique sit qui suscipit. Recusandae ipsa quae impedit molestiae pariatur nam autem saepe voluptate fugiat? Tempora cumque fuga ab illo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis assumenda similique sit qui suscipit. Recusandae ipsa quae impedit molestiae pariatur nam autem saepe voluptate fugiat? Tempora cumque fuga ab illo?",
+          "type": "p",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
